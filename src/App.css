@@ -2,5 +2,7 @@
   background-color: #fcfcfc;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  flex: 100%;
   
 }
