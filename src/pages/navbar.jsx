@@ -5,7 +5,7 @@ import "./pages.css";
 export default function Navbar(){
     return(
         <div className="navbar">
-            <div className="div1" style={{width:"50%"}}>
+            <div className="div1" style={{width:"90%"}}>
             <Link className="link">Home</Link> 
             <Link className="link">Order</Link> 
             <Link className="link">Food</Link> 
@@ -15,7 +15,7 @@ export default function Navbar(){
             </div>
             
             {/* space evenly */}
-            <div className="div2" style={{width:"50%"}}>
+            <div className="div2" style={{width:"10%"}}>
             {/* <span className="logospan"> */}
             <Link className="logo" > <WhatsappLogo/></Link>
             <Link className="logo" > <ShoppingCart/></Link>

@@ -23,7 +23,7 @@
     background-color: rgb(230, 74, 100) ;
     margin: 50px ;
     width: 500px;
-    height: 150px;
+    height: 200px;
     opacity: 0.5;
     display: flex;
     flex-direction: column;
@@ -33,23 +33,26 @@
   }
 
   .div1{
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center;
+    text-align: left;
   }
   .div2{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: right;
+    margin-right: 5px;
   }
   .headerDescriptionHeading{
     display: flex;
     flex-direction: column;
     justify-content:center ;
-    text-align: center;
-    
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
     font-size: 35px;
     font-weight: bolder;
     /* color: white !important; */
@@ -63,7 +66,7 @@
     text-align: left;
     
     margin-left: 30px ;
-    
+    margin-bottom: 30px;
     font-size: 15px;
     font-weight:normal;
     color: #fcfcfc;
@@ -72,7 +75,7 @@
 
   .navbar{
     width: 100%;
-    height: 20px;
+    height: 25px;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -96,12 +99,12 @@
   }
   .link{
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     /* font-weight: bold; */
     
     text-decoration: none;
     font-family:serif;
-    padding: 20px;
+    padding: 30px;
   }
   .body{
     background-image: linear-gradient(to right, rgb(221, 119, 195) , rgb(255, 230, 0));
@@ -127,10 +130,12 @@
     justify-content: center;
   }
   .text1{
+    letter-spacing: 5px;
     color:#fcfcfc;
-    font-weight: 75%;
-    font-size: 32px;
+    font-weight: bolder;
+    font-size: 45px;
     font-family: system-ui, sans-serif;
+    height: 30px;
   }
   
   .card{
@@ -138,8 +143,8 @@
     border-radius: 0px 30px;
   background: #ffffff;
   padding: 20px; 
-  width: 160px;
-  height: 250px;
+  width: 250px;
+  height: 400px;
  display: flex;
  flex-direction: row;
 
@@ -149,9 +154,9 @@
     display: flex;
     flex-direction: column;
     justify-content:center ;
-    border-radius: 0px 30px;
+    border-radius: 0px 30px 0px 0px;
     width:100%;
-    height: 150px;
+    height: 260px;
   }
 
   .productname{
@@ -159,29 +164,31 @@
     flex-direction: row;
     text-align: center;
     justify-content:center ;
-    font-size: 15;
+    font-size: 20px;
     color: rgb(15, 15, 15);
     font-weight: bolder;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .productDescription{
-    font-size: 12px;
-    color: black;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
     display: flex;
     flex-direction: column;
     justify-content:center ;
     text-align: center;
-
+    font-weight: 600;
   }
 
   .order{
     background: #fff;
-    opacity: .4;
-  width: 120px;
+    opacity: 0.6;
+  width: 180px;
   height:50px;
   border-radius: 30px;
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  font-weight: bolder;
+  color: rgb(0, 0, 0) !important;
+  font-size: 20px;
+  font-weight:bolder !important;
   border-style:hidden;
   }
