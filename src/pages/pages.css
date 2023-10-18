@@ -1,0 +1,187 @@
+.header{
+    background-color: #fcfcfc;
+    color: rgb(37, 37, 37);
+    min-height: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+    font-size: 81.25%;
+  }
+
+  .headerimg{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-content: center;
+    width:100%;
+    height:80vh;
+  }
+
+  .headerCard{
+    background-color: rgb(230, 74, 100) ;
+    margin: 50px ;
+    width: 500px;
+    height: 150px;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-content: center;
+    color:white;
+  }
+
+  .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  .div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+  }
+  .headerDescriptionHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: center;
+    
+    font-size: 35px;
+    font-weight: bolder;
+    /* color: white !important; */
+
+  }
+
+  .headerDescriptionContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: left;
+    
+    margin-left: 30px ;
+    
+    font-size: 15px;
+    font-weight:normal;
+    color: #fcfcfc;
+    
+  }
+
+  .navbar{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    background-color: #fcfcfc;
+  }
+  .logo{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-size: 25px;
+      
+  }
+  .logospan{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+   text-align: right;
+    
+  }
+  .link{
+    color: black;
+    font-size: 20px;
+    /* font-weight: bold; */
+    
+    text-decoration: none;
+    font-family:serif;
+    padding: 20px;
+  }
+  .body{
+    background-image: linear-gradient(to right, rgb(221, 119, 195) , rgb(255, 230, 0));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-img{
+    width:100%;
+    height:147vh;
+    
+  }
+
+  .shop{
+    margin: 10px;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text1{
+    color:#fcfcfc;
+    font-weight: 75%;
+    font-size: 32px;
+    font-family: system-ui, sans-serif;
+  }
+  
+  .card{
+    line-height:"15px";
+    border-radius: 0px 30px;
+  background: #ffffff;
+  padding: 20px; 
+  width: 160px;
+  height: 250px;
+ display: flex;
+ flex-direction: row;
+
+  }
+
+  .cardproductimg{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    border-radius: 0px 30px;
+    width:100%;
+    height: 150px;
+  }
+
+  .productname{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center ;
+    font-size: 15;
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+  }
+
+  .productDescription{
+    font-size: 12px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: center;
+
+  }
+
+  .order{
+    background: #fff;
+    opacity: .4;
+  width: 120px;
+  height:50px;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bolder;
+  border-style:hidden;
+  }
