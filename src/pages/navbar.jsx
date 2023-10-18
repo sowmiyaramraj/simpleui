@@ -10,7 +10,7 @@ export default function Navbar(){
             <Link className="link">Order</Link> 
             <Link className="link">Food</Link> 
             <Link className="link">Restaurant</Link> 
-            <Link className="link">Testimopnials</Link> 
+            <Link className="link">Testimonials</Link> 
             <Link className="link">Contact Us</Link> 
             </div>
             <div className="div2" style={{width:"10%"}}>
