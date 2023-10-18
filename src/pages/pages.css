@@ -107,7 +107,7 @@
     padding: 30px;
   }
   .body{
-    background-image: linear-gradient(to right, rgb(221, 119, 195) , rgb(255, 230, 0));
+    background-image: linear-gradient(to right, rgb(248, 100, 211) , rgba(236, 218, 56, 0.774));
     height: 100%;
     width: 100%;
     display: flex;
@@ -144,7 +144,7 @@
   background: #ffffff;
   padding: 20px; 
   width: 250px;
-  height: 400px;
+  height: 350px;
  display: flex;
  flex-direction: row;
 
