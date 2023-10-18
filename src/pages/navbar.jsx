@@ -13,16 +13,10 @@ export default function Navbar(){
             <Link className="link">Testimopnials</Link> 
             <Link className="link">Contact Us</Link> 
             </div>
-            
-            {/* space evenly */}
             <div className="div2" style={{width:"10%"}}>
-            {/* <span className="logospan"> */}
             <Link className="logo" > <WhatsappLogo/></Link>
             <Link className="logo" > <ShoppingCart/></Link>
-            {/* </span> */}
             </div>
-                 
-            
         </div>
     );
 }
